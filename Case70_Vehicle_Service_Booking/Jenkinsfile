@@ -1,0 +1,11 @@
+pipeline {
+  agent any
+  stages {
+    stage('Checkout') { steps { checkout scm } }
+    stage('Install') { steps { sh 'python -m pip install -r requirements.txt' } }
+    stage('Test') { steps { sh 'python -m pytest -q --cov=app --cov-report=term --cov-report=html' } }
+  }
+  post {
+    always { archiveArtifacts artifacts: 'htmlcov/**', allowEmptyArchive: true }
+  }
+}

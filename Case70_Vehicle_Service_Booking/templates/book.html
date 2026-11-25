@@ -1,0 +1,7 @@
+<!doctype html><html><head><meta charset="utf-8"><title>New Booking</title><link rel="stylesheet" href="/static/style.css"></head>
+<body><main class="shell"><header><div><p class="eyebrow">CASE 70 · REMINDER SCHEDULER</p><h1>Create Service Booking</h1></div><nav><a href="/">Dashboard</a><a href="/book">New Booking</a><a href="/reminders">Reminders</a></nav></header>
+<section class="panel form-panel">{% if error %}<p class="error">{{ error }}</p>{% endif %}
+<form method="post"><label>Vehicle<select name="vehicle_id">{% for v in vehicles %}<option value="{{ v.id }}">{{ v.registration }} — {{ v.make }} {{ v.model }}</option>{% endfor %}</select></label>
+<label>Workshop<select name="workshop_id">{% for w in workshops %}<option value="{{ w.id }}">{{ w.name }} — {{ w.city }}</option>{% endfor %}</select></label>
+<label>Booking date<input id="booking_date" name="booking_date" type="date" required></label><label>Service<select name="service_type"><option>General Service</option><option>Oil Change</option><option>Brake Inspection</option><option>Annual Inspection</option></select></label>
+<button type="submit">Create booking</button></form></section></main><script src="/static/app.js"></script></body></html>

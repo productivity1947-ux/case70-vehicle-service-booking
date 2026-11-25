@@ -1,0 +1,16 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Vehicle Service Booking</title>
+<link rel="stylesheet" href="/static/style.css"></head>
+<body><main class="shell">
+<header><div><p class="eyebrow">CASE 70 · REMINDER SCHEDULER</p><h1>Vehicle Service Operations</h1></div>
+<nav><a href="/">Dashboard</a><a href="/book">New Booking</a><a href="/reminders">Reminders</a></nav></header>
+<section class="metrics">
+<article><span>Workshops</span><strong>{{ workshops }}</strong></article><article><span>Vehicles</span><strong>{{ vehicles }}</strong></article>
+<article><span>Bookings</span><strong>{{ bookings }}</strong></article><article><span>Reminders</span><strong>{{ reminders }}</strong></article>
+</section>
+<section class="grid"><article class="panel"><h2>Weekday utilisation</h2>
+<div class="bars">{% for day,count in weekday_fill.items() %}<div><label>{{ day[:3] }}</label><div class="bar"><i style="height:{{ count*18 }}px"></i></div><b>{{ count }}</b></div>{% endfor %}</div></article>
+<article class="panel"><h2>Recent bookings</h2><table><thead><tr><th>ID</th><th>Date</th><th>Service</th><th>Status</th></tr></thead>
+<tbody>{% for b in recent %}<tr><td>#{{ b.id }}</td><td>{{ b.booking_date }}</td><td>{{ b.service_type }}</td><td><span class="status">{{ b.status }}</span></td></tr>{% endfor %}</tbody></table></article></section>
+<section class="panel"><h2>Marketing consent</h2><div class="consent-grid">{% for c in customers[:12] %}<label><span>{{ c.name }}</span><input type="checkbox" {% if c.marketing_consent %}checked{% endif %} onchange="setConsent({{ c.id }},this.checked)"></label>{% endfor %}</div></section>
+</main><script src="/static/app.js"></script></body></html>
