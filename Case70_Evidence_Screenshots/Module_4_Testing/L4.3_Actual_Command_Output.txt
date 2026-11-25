@@ -1,0 +1,22 @@
+L4.3 - Manual versus Selenium timing
+Executed evidence for Vehicle Service Booking
+Student: Suhas | Roll: 57 | USN: ENG24CS1021
+====================================================================================================
+COMMAND: python selenium_evidence.py
+EXIT CODE: 1
+Traceback (most recent call last):
+  File "C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking\selenium_evidence.py", line 14, in <module>
+    assert "Vehicle Service" in driver.page_source
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+----------------------------------------------------------------------------------------------------
+COMMAND: type "..\Case70_Lab_Outputs\L4.3_Selenium_Timing\L4.3_Timing.csv"
+EXIT CODE: 0
+Repeat,Manual seconds,Selenium seconds
+1,18,2.1
+2,19,1.9
+3,17,2.0
+4,20,2.2
+5,18,1.8
+Mean,18.4,2.0
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,18 @@
+L1.5 - AI test-case accuracy
+Executed evidence for Vehicle Service Booking
+Student: Suhas | Roll: 57 | USN: ENG24CS1021
+====================================================================================================
+COMMAND: type "..\Case70_Lab_Outputs\L1.5_AI_Test_Cases\L1.5_AI_Test_Accuracy.csv"
+EXIT CODE: 0
+Case,Origin,Valid,Negative/Boundary
+Reminder for future booking,AI,Yes,No
+Duplicate run,AI,Yes,No
+Past-date booking,AI,Yes,Yes
+Blank vehicle,AI,No,Yes
+Unknown workshop,AI,Yes,Yes
+Duplicate Sent reminder,Human,Yes,Boundary
+Consent false,Human,Yes,Negative
+Invalid date format,Human,Yes,Negative
+Scheduler empty queue,Human,Yes,Boundary
+Concurrent reminder run,Human,Yes,Negative
+----------------------------------------------------------------------------------------------------

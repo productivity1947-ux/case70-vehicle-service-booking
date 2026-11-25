@@ -1,0 +1,37 @@
+L3.5 - Dockerfile, build and run
+Executed evidence for Vehicle Service Booking
+Student: Suhas | Roll: 57 | USN: ENG24CS1021
+====================================================================================================
+COMMAND: type Dockerfile
+EXIT CODE: 0
+FROM python:3.14-slim
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+COPY . .
+EXPOSE 5000
+CMD ["python", "app.py"]
+----------------------------------------------------------------------------------------------------
+COMMAND: type docker-compose.yml
+EXIT CODE: 0
+services:
+  reminder-scheduler:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./instance:/app/instance
+----------------------------------------------------------------------------------------------------
+COMMAND: docker version
+EXIT CODE: 1
+Client:
+ Version:           29.9.2
+ API version:       1.56
+ Go version:        go1.26.10
+ Git commit:        a82e528
+ Built:             Tue Oct 20 19:44:07 2026
+ OS/Arch:           windows/amd64
+ Context:           desktop-linux
+
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+----------------------------------------------------------------------------------------------------

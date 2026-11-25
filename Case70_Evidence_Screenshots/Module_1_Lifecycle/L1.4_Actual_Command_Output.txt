@@ -1,0 +1,23 @@
+L1.4 - Testable requirements
+Executed evidence for Vehicle Service Booking
+Student: Suhas | Roll: 57 | USN: ENG24CS1021
+====================================================================================================
+COMMAND: type "..\Case70_Lab_Outputs\L1.4_Requirements\L1.4_Testable_Requirements.csv"
+EXIT CODE: 0
+Requirement,Testable rewritten requirement
+FR-01,The system shall create one reminder for each new valid booking.
+FR-02,"The system shall accept vehicle, workshop, date and service type through /book."
+FR-03,The system shall reject booking dates earlier than the server date.
+FR-04,The system shall prevent a second Sent reminder for the same booking.
+FR-05,The system shall display weekday utilisation counts on the dashboard.
+FR-06,The system shall allow a customer to opt out of marketing reminders.
+FR-07,The system shall list 40 seeded workshops.
+FR-08,The system shall expose /health with HTTP 200 when the database is available.
+FR-09,The system shall update reminder status to Sent after successful processing.
+FR-10,The system shall filter reminders by their scheduling status.
+NFR-01,Health response time shall remain below 500 ms for 95% of 50 checks.
+NFR-02,The app shall run in a supported desktop browser.
+NFR-03,The database shall retain seeded and newly created records between restarts.
+NFR-04,The system shall not log customer marketing consent in plaintext.
+NFR-05,The prototype shall support all Selenium flows without manual database edits.
+----------------------------------------------------------------------------------------------------

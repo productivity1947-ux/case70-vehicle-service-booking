@@ -1,0 +1,18 @@
+L4.2 - Unit tests and coverage
+Executed evidence for Vehicle Service Booking
+Student: Suhas | Roll: 57 | USN: ENG24CS1021
+====================================================================================================
+COMMAND: python -m pytest -q --cov=app --cov-report=term-missing --cov-report=html
+EXIT CODE: 0
+........                                                                 [100%]
+=============================== tests coverage ================================
+_______________ coverage: platform win32, python 3.14.7-final-0 _______________
+
+Name     Stmts   Miss  Cover   Missing
+--------------------------------------
+app.py     142     40    72%   64-107, 136-145, 168-169, 172-173, 198, 208
+--------------------------------------
+TOTAL      142     40    72%
+Coverage HTML written to dir htmlcov
+8 passed in 2.44s
+----------------------------------------------------------------------------------------------------

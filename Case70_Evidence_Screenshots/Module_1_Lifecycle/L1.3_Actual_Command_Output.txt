@@ -1,0 +1,30 @@
+L1.3 - Before and improved reminder code
+Executed evidence for Vehicle Service Booking
+Student: Suhas | Roll: 57 | USN: ENG24CS1021
+====================================================================================================
+COMMAND: type "..\Case70_Lab_Outputs\L1.3_Reminder_Code\before_reminder.py"
+EXIT CODE: 0
+def schedule_reminder(booking):
+    if booking["date"] >= date.today():
+        reminders.append({"booking": booking["id"], "status": "Scheduled"})
+----------------------------------------------------------------------------------------------------
+COMMAND: type "..\Case70_Lab_Outputs\L1.3_Reminder_Code\after_reminder.py"
+EXIT CODE: 0
+def schedule_reminder(booking):
+    if not isinstance(booking.get("date"), date):
+        raise ValueError("Invalid booking date")
+    if booking["date"] < date.today():
+        raise ValueError("Past booking date")
+    if any(r["booking"] == booking["id"] and r["status"] == "Sent" for r in reminders):
+        return False
+    reminders.append({"booking": booking["id"], "status": "Scheduled"})
+    return True
+----------------------------------------------------------------------------------------------------
+COMMAND: type "..\Case70_Lab_Outputs\L1.3_Reminder_Code\L1.3_change_log.csv"
+EXIT CODE: 0
+Change,Valid,Reason
+Date type guard,Yes,Prevents invalid date operations
+Past-date guard,Yes,Enforces future booking requirement
+Sent duplicate guard,Yes,Prevents duplicate reminders
+Boolean return,Yes,Makes scheduler outcome observable
+----------------------------------------------------------------------------------------------------

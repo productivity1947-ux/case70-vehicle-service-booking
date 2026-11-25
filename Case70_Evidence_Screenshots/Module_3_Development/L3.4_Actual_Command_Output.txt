@@ -1,0 +1,24 @@
+L3.4 - Jenkins trigger and build configuration
+Executed evidence for Vehicle Service Booking
+Student: Suhas | Roll: 57 | USN: ENG24CS1021
+====================================================================================================
+COMMAND: type Jenkinsfile
+EXIT CODE: 0
+pipeline {
+  agent any
+  stages {
+    stage('Checkout') { steps { checkout scm } }
+    stage('Install') { steps { sh 'python -m pip install -r requirements.txt' } }
+    stage('Test') { steps { sh 'python -m pytest -q --cov=app --cov-report=term --cov-report=html' } }
+  }
+  post {
+    always { archiveArtifacts artifacts: 'htmlcov/**', allowEmptyArchive: true }
+  }
+}
+----------------------------------------------------------------------------------------------------
+COMMAND: where jenkins || echo Jenkins executable not installed
+EXIT CODE: 0
+Jenkins executable not installed
+
+INFO: Could not find files for the given pattern(s).
+----------------------------------------------------------------------------------------------------

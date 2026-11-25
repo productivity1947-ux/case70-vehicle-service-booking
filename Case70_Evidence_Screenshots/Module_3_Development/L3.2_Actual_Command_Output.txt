@@ -1,0 +1,31 @@
+L3.2 - Reminder scheduler prototype and suggestion log
+Executed evidence for Vehicle Service Booking
+Student: Suhas | Roll: 57 | USN: ENG24CS1021
+====================================================================================================
+COMMAND: python -c "import app; print(app.app.name)"
+EXIT CODE: 0
+app
+----------------------------------------------------------------------------------------------------
+COMMAND: curl.exe -s -i http://127.0.0.1:5000/health
+EXIT CODE: 0
+HTTP/1.1 200 OK
+Server: Werkzeug/3.1.9 Python/3.14.7
+Date: Wed, 25 Nov 2026 21:13:02 GMT
+Content-Type: application/json
+Content-Length: 69
+Connection: close
+
+{
+  "database": "sqlite",
+  "status": "healthy",
+  "workshops": 40
+}
+----------------------------------------------------------------------------------------------------
+COMMAND: type "..\Case70_Lab_Outputs\L3.2_Prototype\L3.2_Suggestion_Log.csv"
+EXIT CODE: 0
+Suggestion,Decision,Reason
+Use SQLite Sent record check,Accepted,Prevents duplicate reminder
+Generate email automatically,Rejected,Would require external provider
+Catch all exceptions silently,Rejected,Would hide failures
+Use synthetic customer data,Accepted,Protects privacy
+----------------------------------------------------------------------------------------------------

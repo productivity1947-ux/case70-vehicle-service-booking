@@ -1,0 +1,10 @@
+L5.2 - SonarQube before and after scan
+Executed evidence for Vehicle Service Booking
+Student: Suhas | Roll: 57 | USN: ENG24CS1021
+====================================================================================================
+COMMAND: where sonar-scanner || echo sonar-scanner not installed
+EXIT CODE: 0
+sonar-scanner not installed
+
+INFO: Could not find files for the given pattern(s).
+----------------------------------------------------------------------------------------------------

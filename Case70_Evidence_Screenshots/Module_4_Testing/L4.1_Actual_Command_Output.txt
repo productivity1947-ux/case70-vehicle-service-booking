@@ -1,0 +1,10 @@
+L4.1 - 20-minute exploratory session
+Executed evidence for Vehicle Service Booking
+Student: Suhas | Roll: 57 | USN: ENG24CS1021
+====================================================================================================
+COMMAND: type "..\Case70_Lab_Outputs\L4.1_Exploratory\L4.1_20_Minute_Session.txt"
+EXIT CODE: 0
+Charter: 20-minute reminder and booking exploratory session
+Findings: past-date validation shown; duplicate run prevented; consent toggle persisted; health endpoint returned 200
+Risk: external email delivery not connected
+----------------------------------------------------------------------------------------------------

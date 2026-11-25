@@ -1,0 +1,13 @@
+L2.2 - Scrum framework setup
+Executed evidence for Vehicle Service Booking
+Student: Suhas | Roll: 57 | USN: ENG24CS1021
+====================================================================================================
+COMMAND: type "..\Case70_Lab_Outputs\L2.2_Scrum\L2.2_Scrum_Framework.txt"
+EXIT CODE: 0
+Product Owner: Suhas
+Scrum Master: Team Facilitator
+Developers: Backend, UI and Test Contributors
+Events: Sprint Planning, Daily Scrum, Sprint Review, Retrospective
+Artifacts: Product Backlog, Sprint Backlog, Increment
+Sprint length: 2 weeks
+----------------------------------------------------------------------------------------------------

@@ -15,8 +15,12 @@
 
 ## 25 Lab Program Output Screenshots
 
-The lab execution script generated all five-module lab outputs in `../Case70_Lab_Outputs/`.
-Each lab folder has a corresponding screenshot in the module evidence folders below:
+The 25 synthetic `<Lab ID>_Lab_Output.png` summaries have been removed.
+
+Each lab has a real command/output screenshot named
+`<Lab ID>_Actual_Command_Output.png`, plus a matching text transcript.
+These files contain the command that was run, its exit code and captured
+output. They are grouped by module:
 
 | Module | Lab numbers | Screenshot folder |
 |---|---|---|
@@ -26,4 +30,5 @@ Each lab folder has a corresponding screenshot in the module evidence folders be
 | Testing and monitoring | L4.1-L4.5 | Module_4_Testing |
 | SQA and quality | L5.1-L5.5 | Module_5_Quality |
 
-The screenshots are named `<Lab ID>_Lab_Output.png` and show the actual generated file names and output content.
+Unavailable external tools are reported honestly: Docker daemon, Jenkins
+runtime and Sonar scanner/server could not be executed in this environment.

@@ -1,0 +1,26 @@
+L2.4 - Velocity forecast and burn-down
+Executed evidence for Vehicle Service Booking
+Student: Suhas | Roll: 57 | USN: ENG24CS1021
+====================================================================================================
+COMMAND: type "..\Case70_Lab_Outputs\L2.4_Velocity\L2.4_Burn_Down.csv"
+EXIT CODE: 0
+Day,Remaining
+Start,50
+2,40
+4,30
+6,20
+8,10
+10,0
+----------------------------------------------------------------------------------------------------
+COMMAND: type "..\Case70_Lab_Outputs\L2.4_Velocity\L2.4_Forecast.json"
+EXIT CODE: 0
+{
+  "assumed_velocities": [
+    24,
+    27,
+    26
+  ],
+  "average_velocity": 25.666666666666668,
+  "forecast_sprints_for_82_points": 3.2
+}
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,13 @@
+L1.2 - Weighted process-model matrix
+Executed evidence for Vehicle Service Booking
+Student: Suhas | Roll: 57 | USN: ENG24CS1021
+====================================================================================================
+COMMAND: type "..\Case70_Lab_Outputs\L1.2_Process_Model\L1.2_Process_Model_Matrix.csv"
+EXIT CODE: 0
+Model,Feedback speed,Risk control,Change handling,Documentation,Prototype fit,Total
+Incremental,25.0,16.0,25.0,12.0,15.0,93.0
+Agile,25.0,12.0,25.0,9.0,15.0,86.0
+Spiral,20.0,20.0,20.0,15.0,9.0,84.0
+V-Model,10.0,20.0,10.0,15.0,6.0,61.0
+Waterfall,5.0,12.0,5.0,15.0,3.0,40.0
+----------------------------------------------------------------------------------------------------

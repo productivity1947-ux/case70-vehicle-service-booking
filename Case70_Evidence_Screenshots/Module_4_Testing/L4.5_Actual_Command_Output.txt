@@ -1,0 +1,47 @@
+L4.5 - URL monitor script and 10-minute run
+Executed evidence for Vehicle Service Booking
+Student: Suhas | Roll: 57 | USN: ENG24CS1021
+====================================================================================================
+COMMAND: type monitor.py
+EXIT CODE: 0
+import time, json, requests
+from datetime import datetime
+from pathlib import Path
+
+url = "http://127.0.0.1:5000/health"
+limit_ms = 500
+log = Path("monitor_log.csv")
+if not log.exists():
+    log.write_text("timestamp,status_code,response_ms,alert\n", encoding="utf-8")
+
+for minute in range(10):
+    started=time.perf_counter()
+    try:
+        response=requests.get(url,timeout=3)
+        elapsed=(time.perf_counter()-started)*1000
+        alert=elapsed > limit_ms
+    except Exception as exc:
+        elapsed=-1
+        alert=True
+        response=None
+    status=response.status_code if response else "ERROR"
+    with log.open("a",encoding="utf-8") as f:
+        f.write(f"{datetime.now().isoformat()},{status},{elapsed:.2f},{alert}\n")
+    print(json.dumps({"minute":minute+1,"status":status,"response_ms":round(elapsed,2),"alert":alert}))
+    if minute < 9:
+        time.sleep(60)
+----------------------------------------------------------------------------------------------------
+COMMAND: type monitor_log.csv
+EXIT CODE: 0
+timestamp,status_code,response_ms,alert
+2026-11-26T02:31:56.862063,200,13.72,False
+2026-11-26T02:32:56.878418,200,14.38,False
+2026-11-26T02:33:56.894269,200,13.98,False
+2026-11-26T02:34:56.935793,200,37.90,False
+2026-11-26T02:35:56.954676,200,16.41,False
+2026-11-26T02:36:56.973155,200,16.92,False
+2026-11-26T02:37:56.999956,200,25.35,False
+2026-11-26T02:38:57.010763,200,9.21,False
+2026-11-26T02:39:57.031596,200,18.69,False
+2026-11-26T02:40:57.056063,200,22.83,False
+----------------------------------------------------------------------------------------------------

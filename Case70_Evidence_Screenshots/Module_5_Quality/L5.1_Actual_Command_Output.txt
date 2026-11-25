@@ -1,0 +1,12 @@
+L5.1 - Defect density and reliability
+Executed evidence for Vehicle Service Booking
+Student: Suhas | Roll: 57 | USN: ENG24CS1021
+====================================================================================================
+COMMAND: type "..\Case70_Lab_Outputs\L5.1_SQA\L5.1_SQA_Results.json"
+EXIT CODE: 0
+{
+  "defect_density": 0.0,
+  "failure_rate": 0.02,
+  "reliability": 0.98
+}
+----------------------------------------------------------------------------------------------------
