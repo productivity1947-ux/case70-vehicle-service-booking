@@ -7,6 +7,8 @@ from selenium.webdriver.support import expected_conditions as EC
 options = webdriver.ChromeOptions()
 options.add_argument("--headless=new")
 options.add_argument("--window-size=1440,900")
+options.add_argument("--no-sandbox")
+options.add_argument("--disable-dev-shm-usage")
 driver = webdriver.Chrome(options=options)
 driver.get("http://127.0.0.1:5000/")
 assert "Vehicle Service" in driver.page_source

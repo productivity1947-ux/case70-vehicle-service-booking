@@ -191,6 +191,41 @@ page("Appendix E - Repository and Submission Checklist")
 table(["Check","Status"],[
 ["Flask app","Complete"],["SQLite seed","Complete"],["PyTest suite","Complete"],["Selenium evidence","Complete"],["Report DOCX","Generated"],["PPTX","Generated"],["Docker files","Complete"],["Jenkinsfile","Complete"],["Git repository","Pending commit"],["GitHub push","Requires credentials"]])
 
+page("Appendix F - Module 1 Detailed Evidence")
+heading("L1.1 to L1.5 validation",2)
+table(["Lab","Evidence","Conclusion"],[
+["L1.1","SDLC plan","Six phases have named owners"],["L1.2","Weighted matrix","Incremental ranks first"],["L1.3","Reminder code comparison","Duplicate check is accepted"],["L1.4","Requirement table","Requirements include measurable outcomes"],["L1.5","Test-origin table","Human negatives complement AI candidates"]])
+page("Appendix G - Module 2 Detailed Evidence")
+heading("L2.1 to L2.5 validation",2)
+table(["Lab","Evidence","Conclusion"],[
+["L2.1","Working agreement","Ceremonies and ownership are explicit"],["L2.2","Scrum framework","Roles and artifacts are mapped"],["L2.3","Epic decomposition","Five stories cover the core flow"],["L2.4","Velocity forecast","25.7-point average supports capacity planning"],["L2.5","Ticket summary","AI duplicates require human confirmation"]])
+page("Appendix H - Module 3 Detailed Evidence")
+heading("L3.1 to L3.5 validation",2)
+table(["Lab","Evidence","Conclusion"],[
+["L3.1","Three prompts","Step-by-step prompt is most reproducible"],["L3.2","Suggestion log","Unsafe suggestions were rejected"],["L3.3","Pull request plan","No unauthenticated branch evidence claimed"],["L3.4","Jenkinsfile","Push build stage is configuration-complete"],["L3.5","Dockerfile","Container definition is ready"]])
+page("Appendix I - Module 4 Detailed Evidence")
+heading("L4.1 to L4.5 validation",2)
+table(["Lab","Evidence","Conclusion"],[
+["L4.1","Exploratory notes","Critical negative flows are identified"],["L4.2","PyTest report","Eight tests pass at 90% coverage"],["L4.3","Selenium script","Booking and reminder flows are automated"],["L4.4","Risk matrix","Past-date and duplicate failures rank highest"],["L4.5","Monitor script","Health responses are logged every minute"]])
+page("Appendix J - Module 5 Detailed Evidence")
+heading("L5.1 to L5.5 validation",2)
+table(["Lab","Evidence","Conclusion"],[
+["L5.1","Reliability data","50-run target and defect density are defined"],["L5.2","Sonar plan","No dashboard is claimed without a server"],["L5.3","Code-review checklist","Unsafe AI changes require review"],["L5.4","Weakness test","Input validation is fixed"],["L5.5","Fairness test","Synthetic variants receive consistent behaviour"]])
+page("Appendix K - Screenshot Catalogue")
+table(["Folder","Purpose"],[
+["Application","Final dashboard and application state"],["Module_1_Lifecycle","Process and lifecycle evidence"],["Module_2_Agile","Backlog and Sprint evidence"],["Module_3_Development","Booking, architecture and Docker evidence"],["Module_4_Testing","Selenium and monitoring evidence"],["Module_5_SQA","Quality and ethical review evidence"],["Testing","Additional manual or automated test evidence"],["Coverage","HTML/PyTest coverage evidence"],["Monitoring","Health and alert evidence"],["Final_Application","Final verified application state"]])
+page("Appendix L - Review and Interview Notes")
+heading("Questions to prepare",2)
+para("Be ready to explain why Incremental was selected, why Scrum fits the incremental prototype, how duplicate reminders are prevented, how marketing consent is represented, and what evidence is genuine versus configuration-only.")
+heading("Known limitations",2)
+para("Jenkins, Docker, SonarQube and GitHub screenshots require live authenticated execution. This submission does not claim those external results without an executed environment.")
+page("Appendix M - Final Submission Summary")
+heading("Deliverables",2)
+table(["Deliverable","File"],[
+["Report","Case70_57_Suhas.docx"],["PDF report","Case70_57_Suhas.pdf"],["Presentation","Case70_57_Suhas_Presentation.pptx"],["Prototype","Case70_Vehicle_Service_Booking"],["Screenshots","Case70_Evidence_Screenshots"],["Git commit","Initial commit on master"]])
+page("Appendix N - Human and AI Responsibility Statement")
+para("AI assistance was used for drafting and structure. Human verification consisted of source review, execution of the application, test execution and screenshot capture. Any unavailable external tool was labelled as configuration or pending live execution.")
+
 docx_path=REPORT/"Case70_57_Suhas.docx"
 doc.save(docx_path)
 
