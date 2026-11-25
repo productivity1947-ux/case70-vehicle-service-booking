@@ -107,10 +107,10 @@ def command_evidence(lab_id, title, commands):
 
     y = 76
     for line in lines:
-        if y > 695:
+        if y > 875:
             draw.text((28, y), "[output continues in transcript]", fill="#FFCC66", font=font(15))
             break
-        if line.startswith("COMMAND:"):
+        if line.startswith("PS C:\\"):
             color = "#79C0FF"
         elif line.startswith(("EXIT CODE:", "L1.", "L2.", "L3.", "L4.", "L5.")):
             color = "#7EE787"
@@ -128,6 +128,13 @@ def command_evidence(lab_id, title, commands):
     transcript.write_text("\n".join(lines), encoding="utf-8")
     print(output_png)
 
+
+if len(sys.argv) > 1 and sys.argv[1] == "L2.4":
+    command_evidence("L2.4", "Velocity forecast and burn-down", [
+        'type "..\\Case70_Lab_Outputs\\L2.4_Velocity\\L2.4_Burn_Down.csv"',
+        'type "..\\Case70_Lab_Outputs\\L2.4_Velocity\\L2.4_Forecast.json"',
+    ])
+    raise SystemExit(0)
 
 subprocess.run([sys.executable, "lab_programs.py"], cwd=PROJECT, check=True)
 

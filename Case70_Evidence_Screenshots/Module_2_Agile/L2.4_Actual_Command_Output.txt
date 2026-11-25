@@ -6,12 +6,11 @@ Student: Suhas | Roll: 57 | USN: ENG24CS1021
 PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> type "..\Case70_Lab_Outputs\L2.4_Velocity\L2.4_Burn_Down.csv"
 EXIT CODE: 0
 Day,Remaining
-Start,50
-2,40
-4,30
-6,20
-8,10
-10,0
+Start,82
+Sprint 1,56
+Sprint 2,31
+Sprint 3,5
+Sprint 4,0
 ----------------------------------------------------------------------------------------------------
 PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> type "..\Case70_Lab_Outputs\L2.4_Velocity\L2.4_Forecast.json"
 EXIT CODE: 0
@@ -21,7 +20,9 @@ EXIT CODE: 0
     27,
     26
   ],
+  "backlog_points": 82,
   "average_velocity": 25.666666666666668,
-  "forecast_sprints_for_82_points": 3.2
+  "estimated_sprints": 3.2,
+  "whole_sprints_to_complete": 4
 }
 ----------------------------------------------------------------------------------------------------

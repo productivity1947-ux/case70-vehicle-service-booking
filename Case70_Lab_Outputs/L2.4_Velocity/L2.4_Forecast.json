@@ -4,6 +4,8 @@
     27,
     26
   ],
+  "backlog_points": 82,
   "average_velocity": 25.666666666666668,
-  "forecast_sprints_for_82_points": 3.2
+  "estimated_sprints": 3.2,
+  "whole_sprints_to_complete": 4
 }

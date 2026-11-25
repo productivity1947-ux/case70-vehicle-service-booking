@@ -1,6 +1,7 @@
 import csv
 import io
 import json
+import math
 import statistics
 import time
 from datetime import date, datetime, timedelta
@@ -119,15 +120,17 @@ with (LAB/"L2.3_User_Stories"/"L2.3_Epic_Stories.csv").open("w",newline="",encod
 # L2.4 velocity and burn-down
 history=[24,27,26]
 backlog=[32,20,16,10,4]
-remaining=50
+remaining=sum(backlog)
 with (LAB/"L2.4_Velocity"/"L2.4_Burn_Down.csv").open("w",newline="",encoding="utf-8") as f:
     w=csv.writer(f); w.writerow(["Day","Remaining"])
     w.writerow(["Start",remaining])
     velocity=statistics.mean(history)
-    day=0
-    for amount in [40,30,20,10,0]:
-        day+=2; w.writerow([day,amount])
-result={"assumed_velocities":history,"average_velocity":statistics.mean(history),"forecast_sprints_for_82_points":round(82/statistics.mean(history),1)}
+    for sprint in range(1, math.ceil(remaining / velocity) + 1):
+        remaining=max(0, round(sum(backlog) - velocity * sprint))
+        w.writerow([f"Sprint {sprint}", remaining])
+result={"assumed_velocities":history,"backlog_points":sum(backlog),"average_velocity":velocity,
+        "estimated_sprints":round(sum(backlog)/velocity,1),
+        "whole_sprints_to_complete":math.ceil(sum(backlog)/velocity)}
 (LAB/"L2.4_Velocity"/"L2.4_Forecast.json").write_text(json.dumps(result,indent=2),encoding="utf-8")
 
 # L2.5 tickets
