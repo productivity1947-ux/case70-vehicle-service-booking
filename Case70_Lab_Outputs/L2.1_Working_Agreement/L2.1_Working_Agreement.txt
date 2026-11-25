@@ -1,0 +1,5 @@
+Vehicle Service Booking Working Agreement
+Communication: written decisions in project repository; blockers raised in Daily Scrum.
+Meetings: 15-minute Daily Scrum, 2-hour Sprint Review and 45-minute Retrospective.
+Definition of Done: code reviewed, tests pass, evidence captured, README updated.
+Change handling: approved by Product Owner and re-estimated before Sprint commitment.

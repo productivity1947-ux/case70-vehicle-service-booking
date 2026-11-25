@@ -1,0 +1,11 @@
+Test,Likelihood,Impact,Score
+Past-date booking,5,5,25
+Duplicate reminder,5,5,25
+Consent opt-out,5,4,20
+Database unavailable,4,5,20
+Invalid registration,4,3,12
+Workshop capacity,3,4,12
+Utilisation chart,3,2,6
+Marketing template,2,3,6
+Navigation,2,2,4
+Footer text,1,1,1

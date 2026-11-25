@@ -1,0 +1,7 @@
+Input validation: reviewed
+SQL safety: parameterised ORM
+Consent: opt-out preserved
+Exceptions: no silent catch
+Secrets: none in source
+Tests: added
+Licensing: standard open-source dependencies

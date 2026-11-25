@@ -1,0 +1,5 @@
+Suggestion,Decision,Reason
+Use SQLite Sent record check,Accepted,Prevents duplicate reminder
+Generate email automatically,Rejected,Would require external provider
+Catch all exceptions silently,Rejected,Would hide failures
+Use synthetic customer data,Accepted,Protects privacy

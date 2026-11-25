@@ -1,0 +1,6 @@
+Product Owner: Suhas
+Scrum Master: Team Facilitator
+Developers: Backend, UI and Test Contributors
+Events: Sprint Planning, Daily Scrum, Sprint Review, Retrospective
+Artifacts: Product Backlog, Sprint Backlog, Increment
+Sprint length: 2 weeks

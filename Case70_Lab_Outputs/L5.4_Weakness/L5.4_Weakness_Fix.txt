@@ -1,0 +1,3 @@
+Finding: /book accepted past-dated bookings before explicit server validation.
+Fix: date.fromisoformat plus date.today comparison and error render.
+Test: test_booking_requires_future_date passed.

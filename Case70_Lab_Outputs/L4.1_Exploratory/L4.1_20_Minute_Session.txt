@@ -1,0 +1,3 @@
+Charter: 20-minute reminder and booking exploratory session
+Findings: past-date validation shown; duplicate run prevented; consent toggle persisted; health endpoint returned 200
+Risk: external email delivery not connected

@@ -1,0 +1,11 @@
+Case,Origin,Valid,Negative/Boundary
+Reminder for future booking,AI,Yes,No
+Duplicate run,AI,Yes,No
+Past-date booking,AI,Yes,Yes
+Blank vehicle,AI,No,Yes
+Unknown workshop,AI,Yes,Yes
+Duplicate Sent reminder,Human,Yes,Boundary
+Consent false,Human,Yes,Negative
+Invalid date format,Human,Yes,Negative
+Scheduler empty queue,Human,Yes,Boundary
+Concurrent reminder run,Human,Yes,Negative

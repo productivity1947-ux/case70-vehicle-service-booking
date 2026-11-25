@@ -1,0 +1,4 @@
+SonarQube scanner: unavailable
+Sonar server: not configured
+Before/after dashboard: not generated to avoid fabricated evidence
+Issue fixes are tracked in code review and test evidence

@@ -1,0 +1,4 @@
+Role prompt: You are a senior Flask developer. Implement duplicate-safe reminder scheduling.
+Few-shot prompt: Example 1 future booking creates Scheduled reminder. Example 2 sent reminder is not sent twice.
+Step prompt: 1 parse booking 2 validate date 3 check consent 4 check Sent reminder 5 update status.
+Comparison: Role prompt is clear; few-shot improves edge cases; step prompt is easiest to verify.

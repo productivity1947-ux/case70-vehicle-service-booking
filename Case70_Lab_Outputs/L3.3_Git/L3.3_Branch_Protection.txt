@@ -1,0 +1,5 @@
+Repository: local Git repository initialized
+Branch: master
+Required status: Jenkins build and pull request review
+GitHub branch protection: pending authenticated repository setup
+Pull request merge: blocked until live repository review is configured

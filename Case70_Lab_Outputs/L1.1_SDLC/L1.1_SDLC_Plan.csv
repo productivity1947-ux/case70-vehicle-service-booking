@@ -1,0 +1,8 @@
+Phase,Activity,Output,Owner
+Planning,Confirm 40-workshop scope,Approved charter,Suhas
+Requirements,Define booking/reminder needs,FR-01 to FR-05,Product Owner
+Design,Design Flask and SQLite flow,Architecture,Architect
+Implementation,Build reminder scheduler,Working module,Developers
+Testing,"Run unit, Selenium and reliability tests",Test report,Tester
+Deployment,Package Docker and CI,Release candidate,DevOps
+Maintenance,Monitor health and reminders,Incident log,Service team

@@ -1,0 +1,4 @@
+Jenkinsfile stages: Checkout, Install, Test
+Build trigger: SCM push
+Build results: Jenkins runtime unavailable in this environment
+No false build-success screenshots were generated

@@ -1,0 +1,5 @@
+Change,Valid,Reason
+Date type guard,Yes,Prevents invalid date operations
+Past-date guard,Yes,Enforces future booking requirement
+Sent duplicate guard,Yes,Prevents duplicate reminders
+Boolean return,Yes,Makes scheduler outcome observable

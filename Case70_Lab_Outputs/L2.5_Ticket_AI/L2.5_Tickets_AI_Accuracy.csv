@@ -1,0 +1,11 @@
+Ticket,Summary,AI duplicate result,Human verdict
+T1 Duplicate reminder sent,Duplicate reminder,Duplicate of T6,Correct
+T2 Booking past date,Past-date booking,No duplicate,Correct
+T3 Marketing opt-out missing,Consent opt-out,No duplicate,Correct
+T4 Workshop capacity view,Capacity,No duplicate,Correct
+T5 Scheduler status,Scheduler status,No duplicate,Correct
+T6 Duplicate email,Duplicate email,Duplicate of T1,Correct
+T7 Vehicle registration validation,Vehicle validation,No duplicate,Correct
+T8 Calendar date validation,Date validation,Duplicate of T2,Correct
+T9 Weekday utilisation chart,Utilisation chart,No duplicate,Correct
+T10 Reminder consent,Reminder consent,Duplicate of T3,Correct

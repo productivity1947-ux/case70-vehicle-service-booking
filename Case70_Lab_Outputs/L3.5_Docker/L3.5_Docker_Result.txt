@@ -1,0 +1,4 @@
+Docker CLI: available
+Docker Desktop daemon: unavailable
+Dockerfile and docker-compose.yml: present
+Build result: blocked because Docker daemon/API pipe was not running
