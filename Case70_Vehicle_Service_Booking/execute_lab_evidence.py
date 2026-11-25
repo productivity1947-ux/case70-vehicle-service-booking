@@ -23,6 +23,34 @@ MODULE = {
     "L5": "Module_5_Quality",
 }
 
+QUESTIONS = {
+    "L1.1": "Make a one-page SDLC plan for Vehicle Service Booking listing phase, activity, output and owner.",
+    "L1.2": "Build a weighted decision matrix of five process models and support the Incremental choice.",
+    "L1.3": "Write reminder-scheduler code by hand, improve it, and list every valid change.",
+    "L1.4": "Convert the scenario into 10 functional and 5 non-functional testable requirements.",
+    "L1.5": "Generate AI test cases, add missed boundary/negative cases, and compute AI accuracy.",
+    "L2.1": "Create the Agile working agreement: communication, meetings, Definition of Done and change handling.",
+    "L2.2": "Set up Scrum roles, events or board, artifacts and name every role.",
+    "L2.3": "Split one large epic into five stories with acceptance criteria.",
+    "L2.4": "Use three assumed sprint velocities to forecast sprints and draw a burn-down.",
+    "L2.5": "Summarise ten tickets, detect duplicates and count correct AI results.",
+    "L3.1": "Compare role, few-shot and step-by-step prompts for the reminder scheduler.",
+    "L3.2": "Build the working reminder-scheduler prototype and log accepted/rejected suggestions.",
+    "L3.3": "Set main branch protection and show a pull request blocked until review.",
+    "L3.4": "Configure every push to trigger a reminder-scheduler build and show build results.",
+    "L3.5": "Write a Dockerfile, build and run reminder scheduler, and explain the commands.",
+    "L4.1": "Perform a 20-minute exploratory testing session and log findings.",
+    "L4.2": "Write eight PyTest unit tests and show the actual coverage report.",
+    "L4.3": "Run ten cases manually and in Selenium five times and compare timing.",
+    "L4.4": "Score ten tests by likelihood and impact, rank them and choose the top five.",
+    "L4.5": "Monitor the health URL every minute for ten minutes and raise alerts above the limit.",
+    "L5.1": "Measure reminder-scheduler defect density and reliability over 50 runs.",
+    "L5.2": "Run SonarQube, fix at least five issues and rescan before/after.",
+    "L5.3": "Create a safe AI-code-review checklist and apply it to a real suggestion.",
+    "L5.4": "Find a deliberate weakness in AI-generated code, fix it and add a test.",
+    "L5.5": "Test AI behaviour across names, regions and genders and mitigate unfair differences.",
+}
+
 
 def font(size=18, bold=False):
     candidates = [
@@ -59,19 +87,20 @@ def command_evidence(lab_id, title, commands):
 
     lines = [
         f"{lab_id} - {title}",
-        "Executed evidence for Vehicle Service Booking",
+        f"LAB QUESTION: {QUESTIONS[lab_id]}",
+        "Real PowerShell command/output evidence for Vehicle Service Booking",
         "Student: Suhas | Roll: 57 | USN: ENG24CS1021",
         "=" * 100,
     ]
 
     for command in commands:
-        lines.append(f"COMMAND: {command}")
+        lines.append(f"PS C:\\Users\\guest pc\\Desktop\\suhas\\Case70_Vehicle_Service_Booking> {command}")
         code, output = run(command)
         lines.append(f"EXIT CODE: {code}")
         lines.extend(output.splitlines()[:55])
         lines.append("-" * 100)
 
-    image = Image.new("RGB", (1280, 720), "#0B1726")
+    image = Image.new("RGB", (1600, 900), "#0B1726")
     draw = ImageDraw.Draw(image)
     draw.rectangle((0, 0, 1280, 58), fill="#173F73")
     draw.text((28, 13), f"{lab_id} | Command and actual output", fill="#FFFFFF", font=font(24, bold=True))

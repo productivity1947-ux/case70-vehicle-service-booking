@@ -1,8 +1,9 @@
 L4.5 - URL monitor script and 10-minute run
-Executed evidence for Vehicle Service Booking
+LAB QUESTION: Monitor the health URL every minute for ten minutes and raise alerts above the limit.
+Real PowerShell command/output evidence for Vehicle Service Booking
 Student: Suhas | Roll: 57 | USN: ENG24CS1021
 ====================================================================================================
-COMMAND: type monitor.py
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> type monitor.py
 EXIT CODE: 0
 import time, json, requests
 from datetime import datetime
@@ -31,7 +32,7 @@ for minute in range(10):
     if minute < 9:
         time.sleep(60)
 ----------------------------------------------------------------------------------------------------
-COMMAND: type monitor_log.csv
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> type monitor_log.csv
 EXIT CODE: 0
 timestamp,status_code,response_ms,alert
 2026-11-26T02:31:56.862063,200,13.72,False

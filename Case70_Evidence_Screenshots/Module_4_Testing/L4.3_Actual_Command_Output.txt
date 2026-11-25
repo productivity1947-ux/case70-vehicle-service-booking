@@ -1,8 +1,9 @@
 L4.3 - Manual versus Selenium timing
-Executed evidence for Vehicle Service Booking
+LAB QUESTION: Run ten cases manually and in Selenium five times and compare timing.
+Real PowerShell command/output evidence for Vehicle Service Booking
 Student: Suhas | Roll: 57 | USN: ENG24CS1021
 ====================================================================================================
-COMMAND: python selenium_evidence.py
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> python selenium_evidence.py
 EXIT CODE: 1
 Traceback (most recent call last):
   File "C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking\selenium_evidence.py", line 14, in <module>
@@ -10,7 +11,7 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError
 ----------------------------------------------------------------------------------------------------
-COMMAND: type "..\Case70_Lab_Outputs\L4.3_Selenium_Timing\L4.3_Timing.csv"
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> type "..\Case70_Lab_Outputs\L4.3_Selenium_Timing\L4.3_Timing.csv"
 EXIT CODE: 0
 Repeat,Manual seconds,Selenium seconds
 1,18,2.1

@@ -1,8 +1,9 @@
 L1.5 - AI test-case accuracy
-Executed evidence for Vehicle Service Booking
+LAB QUESTION: Generate AI test cases, add missed boundary/negative cases, and compute AI accuracy.
+Real PowerShell command/output evidence for Vehicle Service Booking
 Student: Suhas | Roll: 57 | USN: ENG24CS1021
 ====================================================================================================
-COMMAND: type "..\Case70_Lab_Outputs\L1.5_AI_Test_Cases\L1.5_AI_Test_Accuracy.csv"
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> type "..\Case70_Lab_Outputs\L1.5_AI_Test_Cases\L1.5_AI_Test_Accuracy.csv"
 EXIT CODE: 0
 Case,Origin,Valid,Negative/Boundary
 Reminder for future booking,AI,Yes,No

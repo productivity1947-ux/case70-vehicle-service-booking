@@ -1,8 +1,9 @@
 L2.1 - Agile working agreement
-Executed evidence for Vehicle Service Booking
+LAB QUESTION: Create the Agile working agreement: communication, meetings, Definition of Done and change handling.
+Real PowerShell command/output evidence for Vehicle Service Booking
 Student: Suhas | Roll: 57 | USN: ENG24CS1021
 ====================================================================================================
-COMMAND: type "..\Case70_Lab_Outputs\L2.1_Working_Agreement\L2.1_Working_Agreement.txt"
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> type "..\Case70_Lab_Outputs\L2.1_Working_Agreement\L2.1_Working_Agreement.txt"
 EXIT CODE: 0
 Vehicle Service Booking Working Agreement
 Communication: written decisions in project repository; blockers raised in Daily Scrum.

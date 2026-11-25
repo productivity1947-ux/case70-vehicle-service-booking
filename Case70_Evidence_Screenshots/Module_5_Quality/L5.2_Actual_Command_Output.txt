@@ -1,8 +1,9 @@
 L5.2 - SonarQube before and after scan
-Executed evidence for Vehicle Service Booking
+LAB QUESTION: Run SonarQube, fix at least five issues and rescan before/after.
+Real PowerShell command/output evidence for Vehicle Service Booking
 Student: Suhas | Roll: 57 | USN: ENG24CS1021
 ====================================================================================================
-COMMAND: where sonar-scanner || echo sonar-scanner not installed
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> where sonar-scanner || echo sonar-scanner not installed
 EXIT CODE: 0
 sonar-scanner not installed
 

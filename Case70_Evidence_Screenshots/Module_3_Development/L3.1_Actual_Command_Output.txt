@@ -1,8 +1,9 @@
 L3.1 - Role, few-shot and step prompting
-Executed evidence for Vehicle Service Booking
+LAB QUESTION: Compare role, few-shot and step-by-step prompts for the reminder scheduler.
+Real PowerShell command/output evidence for Vehicle Service Booking
 Student: Suhas | Roll: 57 | USN: ENG24CS1021
 ====================================================================================================
-COMMAND: type "..\Case70_Lab_Outputs\L3.1_Prompting\L3.1_Prompts.txt"
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> type "..\Case70_Lab_Outputs\L3.1_Prompting\L3.1_Prompts.txt"
 EXIT CODE: 0
 Role prompt: You are a senior Flask developer. Implement duplicate-safe reminder scheduling.
 Few-shot prompt: Example 1 future booking creates Scheduled reminder. Example 2 sent reminder is not sent twice.

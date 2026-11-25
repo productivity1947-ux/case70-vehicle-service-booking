@@ -1,14 +1,15 @@
 L1.3 - Before and improved reminder code
-Executed evidence for Vehicle Service Booking
+LAB QUESTION: Write reminder-scheduler code by hand, improve it, and list every valid change.
+Real PowerShell command/output evidence for Vehicle Service Booking
 Student: Suhas | Roll: 57 | USN: ENG24CS1021
 ====================================================================================================
-COMMAND: type "..\Case70_Lab_Outputs\L1.3_Reminder_Code\before_reminder.py"
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> type "..\Case70_Lab_Outputs\L1.3_Reminder_Code\before_reminder.py"
 EXIT CODE: 0
 def schedule_reminder(booking):
     if booking["date"] >= date.today():
         reminders.append({"booking": booking["id"], "status": "Scheduled"})
 ----------------------------------------------------------------------------------------------------
-COMMAND: type "..\Case70_Lab_Outputs\L1.3_Reminder_Code\after_reminder.py"
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> type "..\Case70_Lab_Outputs\L1.3_Reminder_Code\after_reminder.py"
 EXIT CODE: 0
 def schedule_reminder(booking):
     if not isinstance(booking.get("date"), date):
@@ -20,7 +21,7 @@ def schedule_reminder(booking):
     reminders.append({"booking": booking["id"], "status": "Scheduled"})
     return True
 ----------------------------------------------------------------------------------------------------
-COMMAND: type "..\Case70_Lab_Outputs\L1.3_Reminder_Code\L1.3_change_log.csv"
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> type "..\Case70_Lab_Outputs\L1.3_Reminder_Code\L1.3_change_log.csv"
 EXIT CODE: 0
 Change,Valid,Reason
 Date type guard,Yes,Prevents invalid date operations

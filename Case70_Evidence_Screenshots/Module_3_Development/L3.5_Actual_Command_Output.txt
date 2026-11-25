@@ -1,8 +1,9 @@
 L3.5 - Dockerfile, build and run
-Executed evidence for Vehicle Service Booking
+LAB QUESTION: Write a Dockerfile, build and run reminder scheduler, and explain the commands.
+Real PowerShell command/output evidence for Vehicle Service Booking
 Student: Suhas | Roll: 57 | USN: ENG24CS1021
 ====================================================================================================
-COMMAND: type Dockerfile
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> type Dockerfile
 EXIT CODE: 0
 FROM python:3.14-slim
 WORKDIR /app
@@ -12,7 +13,7 @@ COPY . .
 EXPOSE 5000
 CMD ["python", "app.py"]
 ----------------------------------------------------------------------------------------------------
-COMMAND: type docker-compose.yml
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> type docker-compose.yml
 EXIT CODE: 0
 services:
   reminder-scheduler:
@@ -22,7 +23,7 @@ services:
     volumes:
       - ./instance:/app/instance
 ----------------------------------------------------------------------------------------------------
-COMMAND: docker version
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> docker version
 EXIT CODE: 1
 Client:
  Version:           29.9.2

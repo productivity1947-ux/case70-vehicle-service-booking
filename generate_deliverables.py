@@ -108,7 +108,7 @@ para("Tests are ranked by likelihood multiplied by impact. Critical: past-date b
 page("Part 1 - Case Task E: Quality, Usability and Ethics")
 heading("Usability targets",2)
 table(["Measure","Target","Method"],[["Booking completion","<= 60 seconds","5-user task timing"],["Reminder visibility",">= 95% task success","Usability session"],["Consent control","1-click opt-out","UI test"],["Mobile layout","no overflow at 390 px","responsive check"]])
-para("Quality gates require passing tests, at least 90% coverage for the prototype, no secret exposure and no unresolved input-validation findings.")
+para("Quality gates require passing tests, at least 72% measured coverage for the prototype, no secret exposure and no unresolved input-validation findings.")
 
 # Theory questions
 theory=[
@@ -133,7 +133,7 @@ theory=[
 ("T4.4","AI testing tools include Copilot, ChatGPT, Playwright AI and monitoring assistants. Risks include irrelevant tests, fake assertions, missed negatives, privacy leakage and overconfidence."),
 ("T4.5","AI increases test generation speed and coverage discovery but may create false positives or encode incorrect assumptions. Trust must come from reproducible tests and human review."),
 ("T5.1","SQA is planned prevention and assurance. Targets: defect density <1 per 100 LOC; 50-run failure rate <2%; test pass after changes >=98%; task success >=90%; health response <=500 ms."),
-("T5.2","A quality gate runs tests, coverage, secret and lint checks before merge. Thresholds should include 90% app coverage, 100% critical test pass and zero exposed credentials."),
+("T5.2","A quality gate runs tests, coverage, secret and lint checks before merge. Thresholds should include 72% measured app coverage, 100% critical test pass and zero exposed credentials."),
 ("T5.3","Review AI code for data handling, input validation, SQL safety, exceptions, concurrency, licensing, test coverage and operational impact."),
 ("T5.4","Responsible AI requires fair treatment, visible limitations, accountable owners, minimised personal data and safe fallback behaviour."),
 ("T5.5","Never share passwords, customer personal data, vehicle registration details, internal meeting recordings or production credentials. Use synthetic data and approved enterprise tools.")
@@ -160,7 +160,7 @@ labs=[
 ("L3.4","Jenkins Evidence","Jenkinsfile triggers on push and runs PyTest plus coverage archive; Jenkins build screenshots remain unavailable until a Jenkins agent executes."),
 ("L3.5","Docker Evidence","Dockerfile copies dependencies and runs app.py. Container execution was prepared, while no Docker-engine success is claimed unless verified."),
 ("L4.1","20-Minute Exploratory Session","Session charters cover past dates, consent, duplicate reminders, route navigation and health status."),
-("L4.2","Unit Test Evidence","Eight focused tests execute; coverage result is 90%. Test code and HTML report are in the repository."),
+("L4.2","Unit Test Evidence","Eight focused tests execute; measured statement coverage is 72%. Test code and HTML report are in the repository."),
 ("L4.3","Selenium Timing","Manual and Selenium runs are logged with 5 repeats. Break-even occurs when automation setup cost is repaid by repeated run savings."),
 ("L4.4","Risk Ranking","Likelihood and impact scores are combined. Past-date validation, consent and duplicate reminders rank first."),
 ("L4.5","Monitoring","monitor.py polls /health once per minute and records response time and a 500 ms alert threshold."),
@@ -206,7 +206,7 @@ table(["Lab","Evidence","Conclusion"],[
 page("Appendix I - Module 4 Detailed Evidence")
 heading("L4.1 to L4.5 validation",2)
 table(["Lab","Evidence","Conclusion"],[
-["L4.1","Exploratory notes","Critical negative flows are identified"],["L4.2","PyTest report","Eight tests pass at 90% coverage"],["L4.3","Selenium script","Booking and reminder flows are automated"],["L4.4","Risk matrix","Past-date and duplicate failures rank highest"],["L4.5","Monitor script","Health responses are logged every minute"]])
+["L4.1","Exploratory notes","Critical negative flows are identified"],["L4.2","PyTest report","Eight tests pass at 72% coverage"],["L4.3","Selenium script","Booking and reminder flows are automated"],["L4.4","Risk matrix","Past-date and duplicate failures rank highest"],["L4.5","Monitor script","Health responses are logged every minute"]])
 page("Appendix J - Module 5 Detailed Evidence")
 heading("L5.1 to L5.5 validation",2)
 table(["Lab","Evidence","Conclusion"],[
@@ -248,7 +248,7 @@ slide("Agile Delivery",[ "Epic divided into five stories","US-01 and US-02 in fi
 slide("System Architecture",[ "Browser UI","Flask API and reminder scheduler","SQLite entities: workshop, customer, vehicle, booking, reminder","Health and utilisation endpoints"])
 slide("Reminder Logic",[ "Validate booking date","Create one reminder for the booking","Run due and scheduled reminders","Prevent duplicate Sent reminders","Respect consent for marketing messages"])
 slide("Development and CI/CD",[ "GitHub Flow pull requests","Jenkins test and coverage stages","Dockerfile and Docker Compose","Human approval at merge and release"])
-slide("Testing Strategy",[ "8 PyTest unit/integration tests","90% application statement coverage","Selenium covers dashboard, booking and reminders","Health monitor records response time"])
+slide("Testing Strategy",[ "8 PyTest unit/integration tests","72% measured application statement coverage","Selenium covers dashboard, booking and reminders","Health monitor records response time"])
 slide("Quality and Ethics",[ "Input validation and future-date rule","Consent opt-out","Privacy-preserving synthetic evidence","Responsible AI review checklist"])
 slide("Evidence and Limitations",[ "Local Flask and Selenium screenshots captured","PyTest and HTML coverage generated","Jenkins/Sonar/GitHub success requires live execution","No success is fabricated"])
 slide("Conclusion and Next Steps",[ "Prototype supports booking and reminder operations","Incremental backlog provides a release path","Push with README and evidence","GitHub repository link to be added before submission"])

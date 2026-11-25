@@ -1,8 +1,9 @@
 L4.2 - Unit tests and coverage
-Executed evidence for Vehicle Service Booking
+LAB QUESTION: Write eight PyTest unit tests and show the actual coverage report.
+Real PowerShell command/output evidence for Vehicle Service Booking
 Student: Suhas | Roll: 57 | USN: ENG24CS1021
 ====================================================================================================
-COMMAND: python -m pytest -q --cov=app --cov-report=term-missing --cov-report=html
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> python -m pytest -q --cov=app --cov-report=term-missing --cov-report=html
 EXIT CODE: 0
 ........                                                                 [100%]
 =============================== tests coverage ================================
@@ -14,5 +15,5 @@ app.py     142     40    72%   64-107, 136-145, 168-169, 172-173, 198, 208
 --------------------------------------
 TOTAL      142     40    72%
 Coverage HTML written to dir htmlcov
-8 passed in 2.44s
+8 passed in 2.22s
 ----------------------------------------------------------------------------------------------------

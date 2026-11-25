@@ -1,77 +1,58 @@
 L3.3 - Branch protection and pull request evidence
-Executed evidence for Vehicle Service Booking
+LAB QUESTION: Set main branch protection and show a pull request blocked until review.
+Real PowerShell command/output evidence for Vehicle Service Booking
 Student: Suhas | Roll: 57 | USN: ENG24CS1021
 ====================================================================================================
-COMMAND: git status --short
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> git status --short
 EXIT CODE: 0
-M ../Case70_Evidence_Screenshots/Coverage/L4_2_Coverage_Report_90_Percent.png
- M ../Case70_Evidence_Screenshots/Evidence_Index.md
- D ../Case70_Evidence_Screenshots/Module_1_Lifecycle/L1.1_SDLC_Lab_Output.png
- D ../Case70_Evidence_Screenshots/Module_1_Lifecycle/L1.2_Process_Model_Lab_Output.png
- D ../Case70_Evidence_Screenshots/Module_1_Lifecycle/L1.3_Reminder_Code_Lab_Output.png
- D ../Case70_Evidence_Screenshots/Module_1_Lifecycle/L1.4_Requirements_Lab_Output.png
- D ../Case70_Evidence_Screenshots/Module_1_Lifecycle/L1.5_AI_Test_Cases_Lab_Output.png
- D ../Case70_Evidence_Screenshots/Module_2_Agile/L2.1_Working_Agreement_Lab_Output.png
- D ../Case70_Evidence_Screenshots/Module_2_Agile/L2.2_Scrum_Lab_Output.png
- D ../Case70_Evidence_Screenshots/Module_2_Agile/L2.3_User_Stories_Lab_Output.png
- D ../Case70_Evidence_Screenshots/Module_2_Agile/L2.4_Velocity_Lab_Output.png
- D ../Case70_Evidence_Screenshots/Module_2_Agile/L2.5_Ticket_AI_Lab_Output.png
- D ../Case70_Evidence_Screenshots/Module_3_Development/L3.1_Prompting_Lab_Output.png
- D ../Case70_Evidence_Screenshots/Module_3_Development/L3.2_Prototype_Lab_Output.png
- D ../Case70_Evidence_Screenshots/Module_3_Development/L3.3_Git_Lab_Output.png
- D ../Case70_Evidence_Screenshots/Module_3_Development/L3.4_Jenkins_Lab_Output.png
- D ../Case70_Evidence_Screenshots/Module_3_Development/L3.5_Docker_Lab_Output.png
- D ../Case70_Evidence_Screenshots/Module_4_Testing/L4.1_Exploratory_Lab_Output.png
- D ../Case70_Evidence_Screenshots/Module_4_Testing/L4.2_Unit_Tests_Lab_Output.png
- D ../Case70_Evidence_Screenshots/Module_4_Testing/L4.3_Selenium_Timing_Lab_Output.png
- D ../Case70_Evidence_Screenshots/Module_4_Testing/L4.4_Test_Priority_Lab_Output.png
- D ../Case70_Evidence_Screenshots/Module_4_Testing/L4.5_Monitoring_Lab_Output.png
- D ../Case70_Evidence_Screenshots/Module_5_Quality/L5.1_SQA_Lab_Output.png
- D ../Case70_Evidence_Screenshots/Module_5_Quality/L5.2_SonarQube_Lab_Output.png
- D ../Case70_Evidence_Screenshots/Module_5_Quality/L5.3_AI_Code_Review_Lab_Output.png
- D ../Case70_Evidence_Screenshots/Module_5_Quality/L5.4_Weakness_Lab_Output.png
- D ../Case70_Evidence_Screenshots/Module_5_Quality/L5.5_Fairness_Lab_Output.png
- M ../Case70_Lab_Outputs/Lab_Execution_Index.html
+M ../Case70_Evidence_Screenshots/Module_1_Lifecycle/L1.1_Actual_Command_Output.png
+ M ../Case70_Evidence_Screenshots/Module_1_Lifecycle/L1.1_Actual_Command_Output.txt
+ M ../Case70_Evidence_Screenshots/Module_1_Lifecycle/L1.2_Actual_Command_Output.png
+ M ../Case70_Evidence_Screenshots/Module_1_Lifecycle/L1.2_Actual_Command_Output.txt
+ M ../Case70_Evidence_Screenshots/Module_1_Lifecycle/L1.3_Actual_Command_Output.png
+ M ../Case70_Evidence_Screenshots/Module_1_Lifecycle/L1.3_Actual_Command_Output.txt
+ M ../Case70_Evidence_Screenshots/Module_1_Lifecycle/L1.4_Actual_Command_Output.png
+ M ../Case70_Evidence_Screenshots/Module_1_Lifecycle/L1.4_Actual_Command_Output.txt
+ M ../Case70_Evidence_Screenshots/Module_1_Lifecycle/L1.5_Actual_Command_Output.png
+ M ../Case70_Evidence_Screenshots/Module_1_Lifecycle/L1.5_Actual_Command_Output.txt
+ M ../Case70_Evidence_Screenshots/Module_2_Agile/L2.1_Actual_Command_Output.png
+ M ../Case70_Evidence_Screenshots/Module_2_Agile/L2.1_Actual_Command_Output.txt
+ M ../Case70_Evidence_Screenshots/Module_2_Agile/L2.2_Actual_Command_Output.png
+ M ../Case70_Evidence_Screenshots/Module_2_Agile/L2.2_Actual_Command_Output.txt
+ M ../Case70_Evidence_Screenshots/Module_2_Agile/L2.3_Actual_Command_Output.png
+ M ../Case70_Evidence_Screenshots/Module_2_Agile/L2.3_Actual_Command_Output.txt
+ M ../Case70_Evidence_Screenshots/Module_2_Agile/L2.4_Actual_Command_Output.png
+ M ../Case70_Evidence_Screenshots/Module_2_Agile/L2.4_Actual_Command_Output.txt
+ M ../Case70_Evidence_Screenshots/Module_2_Agile/L2.5_Actual_Command_Output.png
+ M ../Case70_Evidence_Screenshots/Module_2_Agile/L2.5_Actual_Command_Output.txt
+ M ../Case70_Evidence_Screenshots/Module_3_Development/L3.1_Actual_Command_Output.png
+ M ../Case70_Evidence_Screenshots/Module_3_Development/L3.1_Actual_Command_Output.txt
+ M ../Case70_Evidence_Screenshots/Module_3_Development/L3.2_Actual_Command_Output.png
+ M ../Case70_Evidence_Screenshots/Module_3_Development/L3.2_Actual_Command_Output.txt
+ M execute_lab_evidence.py
  D generate_lab_screenshots.py
  M instance/service_booking.db
- M monitor_log.csv
 ?? ../AirlineCrewSchedulingReview/
-?? ../Case70_Evidence_Screenshots/Module_1_Lifecycle/L1.1_Actual_Command_Output.png
-?? ../Case70_Evidence_Screenshots/Module_1_Lifecycle/L1.1_Actual_Command_Output.txt
-?? ../Case70_Evidence_Screenshots/Module_1_Lifecycle/L1.2_Actual_Command_Output.png
-?? ../Case70_Evidence_Screenshots/Module_1_Lifecycle/L1.2_Actual_Command_Output.txt
-?? ../Case70_Evidence_Screenshots/Module_1_Lifecycle/L1.3_Actual_Command_Output.png
-?? ../Case70_Evidence_Screenshots/Module_1_Lifecycle/L1.3_Actual_Command_Output.txt
-?? ../Case70_Evidence_Screenshots/Module_1_Lifecycle/L1.4_Actual_Command_Output.png
-?? ../Case70_Evidence_Screenshots/Module_1_Lifecycle/L1.4_Actual_Command_Output.txt
-?? ../Case70_Evidence_Screenshots/Module_1_Lifecycle/L1.5_Actual_Command_Output.png
-?? ../Case70_Evidence_Screenshots/Module_1_Lifecycle/L1.5_Actual_Command_Output.txt
-?? ../Case70_Evidence_Screenshots/Module_2_Agile/L2.1_Actual_Command_Output.png
-?? ../Case70_Evidence_Screenshots/Module_2_Agile/L2.1_Actual_Command_Output.txt
-?? ../Case70_Evidence_Screenshots/Module_2_Agile/L2.2_Actual_Command_Output.png
-?? ../Case70_Evidence_Screenshots/Module_2_Agile/L2.2_Actual_Command_Output.txt
-?? ../Case70_Evidence_Screenshots/Module_2_Agile/L2.3_Actual_Command_Output.png
-?? ../Case70_Evidence_Screenshots/Module_2_Agile/L2.3_Actual_Command_Output.txt
-?? ../Case70_Evidence_Screenshots/Module_2_Agile/L2.4_Actual_Command_Output.png
-?? ../Case70_Evidence_Screenshots/Module_2_Agile/L2.4_Actual_Command_Output.txt
-?? ../Case70_Evidence_Screenshots/Module_2_Agile/L2.5_Actual_Command_Output.png
-?? ../Case70_Evidence_Screenshots/Module_2_Agile/L2.5_Actual_Command_Output.txt
-?? ../Case70_Evidence_Screenshots/Module_3_Development/L3.1_Actual_Command_Output.png
-?? ../Case70_Evidence_Screenshots/Module_3_Development/L3.1_Actual_Command_Output.txt
-?? ../Case70_Evidence_Screenshots/Module_3_Development/L3.2_Actual_Command_Output.png
+?? ../friend_report_montage_1.jpg
+?? ../friend_report_montage_2.jpg
+?? ../friend_report_montage_3.jpg
+?? ../friend_report_montage_4.jpg
+?? ../friend_report_pages/
+?? ../friend_report_text.txt
 ----------------------------------------------------------------------------------------------------
-COMMAND: git log -5 --oneline
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> git log -5 --oneline
 EXIT CODE: 0
+b4e8e68 Replace lab evidence with executed command screenshots
 2756761 Complete 25 lab outputs and evidence screenshots
 9254015 Add final report, presentation, and monitoring evidence
 7abf7e4 Add Case 70 vehicle service reminder prototype
 ----------------------------------------------------------------------------------------------------
-COMMAND: git remote -v
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> git remote -v
 EXIT CODE: 0
 origin	https://github.com/productivity1947-ux/case70-vehicle-service-booking.git (fetch)
 origin	https://github.com/productivity1947-ux/case70-vehicle-service-booking.git (push)
 ----------------------------------------------------------------------------------------------------
-COMMAND: gh api repos/productivity1947-ux/case70-vehicle-service-booking/branches/master
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> gh api repos/productivity1947-ux/case70-vehicle-service-booking/branches/master
 EXIT CODE: 0
-{"name":"master","commit":{"sha":"275676142aa9d2a9c4c903c85043c96f2f923bf6","node_id":"C_kwDOV8IBwtoAKDI3NTY3NjE0MmFhOWQyYTljNGM5MDNjODUwNDNjOTZmMmY5MjNiZjY","commit":{"author":{"name":"manojshet2005","email":"manojshet11111@gmail.com","date":"2026-11-25T20:57:02Z"},"committer":{"name":"manojshet2005","email":"manojshet11111@gmail.com","date":"2026-11-25T20:57:02Z"},"message":"Complete 25 lab outputs and evidence screenshots\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>","tree":{"sha":"f2f4146f9b2d5b85108ad2f4b8369b9abfa566bc","url":"https://api.github.com/repos/productivity1947-ux/case70-vehicle-service-booking/git/trees/f2f4146f9b2d5b85108ad2f4b8369b9abfa566bc"},"url":"https://api.github.com/repos/productivity1947-ux/case70-vehicle-service-booking/git/commits/275676142aa9d2a9c4c903c85043c96f2f923bf6","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null,"verified_at":null}},"url":"https://api.github.com/repos/productivity1947-ux/case70-vehicle-service-booking/commits/275676142aa9d2a9c4c903c85043c96f2f923bf6","html_url":"https://github.com/productivity1947-ux/case70-vehicle-service-booking/commit/275676142aa9d2a9c4c903c85043c96f2f923bf6","comments_url":"https://api.github.com/repos/productivity1947-ux/case70-vehicle-service-booking/commits/275676142aa9d2a9c4c903c85043c96f2f923bf6/comments","author":{"login":"manojshet2005","id":222447378,"node_id":"U_kgDODUJHEg","avatar_url":"https://avatars.githubusercontent.com/u/222447378?v=4","gravatar_id":"","url":"https://api.github.com/users/manojshet2005","html_url":"https://github.com/manojshet2005","followers_url":"https://api.github.com/users/manojshet2005/followers","following_url":"https://api.github.com/users/manojshet2005/following{/other_user}","gists_url":"https://api.github.com/users/manojshet2005/gists{/gist_id}","starred_url":"https://api.github.com/users/manojshet2005/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/manojshet2005/subscriptions","organizations_url":"https://api.github.com/users/manojshet2005/orgs","repos_url":"https://api.github.com/users/manojshet2005/repos","events_url":"https://api.github.com/users/manojshet2005/events{/privacy}","received_events_url":"https://api.github.com/users/manojshet2005/received_events","type":"User","user_view_type":"public","site_admin":false},"committer":{"login":"manojshet2005","id":222447378,"node_id":"U_kgDODUJHEg","avatar_url":"https://avatars.githubusercontent.com/u/222447378?v=4","gravatar_id":"","url":"https://api.github.com/users/manojshet2005","html_url":"https://github.com/manojshet2005","followers_url":"https://api.github.com/users/manojshet2005/followers","following_url":"https://api.github.com/users/manojshet2005/following{/other_user}","gists_url":"https://api.github.com/users/manojshet2005/gists{/gist_id}","starred_url":"https://api.github.com/users/manojshet2005/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/manojshet2005/subscriptions","organizations_url":"https://api.github.com/users/manojshet2005/orgs","repos_url":"https://api.github.com/users/manojshet2005/repos","events_url":"https://api.github.com/users/manojshet2005/events{/privacy}","received_events_url":"https://api.github.com/users/manojshet2005/received_events","type":"User","user_view_type":"public","site_admin":false},"parents":[{"sha":"9254015910bd00d0bbcc709b30f26f426a0bad5f","url":"https://api.github.com/repos/productivity1947-ux/case70-vehicle-service-booking/commits/9254015910bd00d0bbcc709b30f26f426a0bad5f","html_url":"https://github.com/productivity1947-ux/case70-vehicle-service-booking/commit/9254015910bd00d0bbcc709b30f26f426a0bad5f"}]},"_links":{"self":"https://api.github.com/repos/productivity1947-ux/case70-vehicle-service-booking/branches/master","html":"https://github.com/productivity1947-ux/case70-vehicle-service-booking/tree/master"},"protected":false,"protection":{"enabled":false,"required_status_checks":{"enforcement_level":"off","contexts":[],"checks":[]}},"protection_url":"https://api.github.com/repos/productivity1947-ux/case70-vehicle-service-booking/branches/master/protection"}
+{"name":"master","commit":{"sha":"b4e8e683227461b8438ed861e08e8294e39ffa93","node_id":"C_kwDOV8IBwtoAKGI0ZThlNjgzMjI3NDYxYjg0MzhlZDg2MWUwOGU4Mjk0ZTM5ZmZhOTM","commit":{"author":{"name":"manojshet2005","email":"manojshet11111@gmail.com","date":"2026-11-25T21:13:35Z"},"committer":{"name":"manojshet2005","email":"manojshet11111@gmail.com","date":"2026-11-25T21:13:35Z"},"message":"Replace lab evidence with executed command screenshots\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>","tree":{"sha":"31f439e9d6fcb28294b47249b9ec9bca8072a451","url":"https://api.github.com/repos/productivity1947-ux/case70-vehicle-service-booking/git/trees/31f439e9d6fcb28294b47249b9ec9bca8072a451"},"url":"https://api.github.com/repos/productivity1947-ux/case70-vehicle-service-booking/git/commits/b4e8e683227461b8438ed861e08e8294e39ffa93","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null,"verified_at":null}},"url":"https://api.github.com/repos/productivity1947-ux/case70-vehicle-service-booking/commits/b4e8e683227461b8438ed861e08e8294e39ffa93","html_url":"https://github.com/productivity1947-ux/case70-vehicle-service-booking/commit/b4e8e683227461b8438ed861e08e8294e39ffa93","comments_url":"https://api.github.com/repos/productivity1947-ux/case70-vehicle-service-booking/commits/b4e8e683227461b8438ed861e08e8294e39ffa93/comments","author":{"login":"manojshet2005","id":222447378,"node_id":"U_kgDODUJHEg","avatar_url":"https://avatars.githubusercontent.com/u/222447378?v=4","gravatar_id":"","url":"https://api.github.com/users/manojshet2005","html_url":"https://github.com/manojshet2005","followers_url":"https://api.github.com/users/manojshet2005/followers","following_url":"https://api.github.com/users/manojshet2005/following{/other_user}","gists_url":"https://api.github.com/users/manojshet2005/gists{/gist_id}","starred_url":"https://api.github.com/users/manojshet2005/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/manojshet2005/subscriptions","organizations_url":"https://api.github.com/users/manojshet2005/orgs","repos_url":"https://api.github.com/users/manojshet2005/repos","events_url":"https://api.github.com/users/manojshet2005/events{/privacy}","received_events_url":"https://api.github.com/users/manojshet2005/received_events","type":"User","user_view_type":"public","site_admin":false},"committer":{"login":"manojshet2005","id":222447378,"node_id":"U_kgDODUJHEg","avatar_url":"https://avatars.githubusercontent.com/u/222447378?v=4","gravatar_id":"","url":"https://api.github.com/users/manojshet2005","html_url":"https://github.com/manojshet2005","followers_url":"https://api.github.com/users/manojshet2005/followers","following_url":"https://api.github.com/users/manojshet2005/following{/other_user}","gists_url":"https://api.github.com/users/manojshet2005/gists{/gist_id}","starred_url":"https://api.github.com/users/manojshet2005/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/manojshet2005/subscriptions","organizations_url":"https://api.github.com/users/manojshet2005/orgs","repos_url":"https://api.github.com/users/manojshet2005/repos","events_url":"https://api.github.com/users/manojshet2005/events{/privacy}","received_events_url":"https://api.github.com/users/manojshet2005/received_events","type":"User","user_view_type":"public","site_admin":false},"parents":[{"sha":"275676142aa9d2a9c4c903c85043c96f2f923bf6","url":"https://api.github.com/repos/productivity1947-ux/case70-vehicle-service-booking/commits/275676142aa9d2a9c4c903c85043c96f2f923bf6","html_url":"https://github.com/productivity1947-ux/case70-vehicle-service-booking/commit/275676142aa9d2a9c4c903c85043c96f2f923bf6"}]},"_links":{"self":"https://api.github.com/repos/productivity1947-ux/case70-vehicle-service-booking/branches/master","html":"https://github.com/productivity1947-ux/case70-vehicle-service-booking/tree/master"},"protected":false,"protection":{"enabled":false,"required_status_checks":{"enforcement_level":"off","contexts":[],"checks":[]}},"protection_url":"https://api.github.com/repos/productivity1947-ux/case70-vehicle-service-booking/branches/master/protection"}
 ----------------------------------------------------------------------------------------------------

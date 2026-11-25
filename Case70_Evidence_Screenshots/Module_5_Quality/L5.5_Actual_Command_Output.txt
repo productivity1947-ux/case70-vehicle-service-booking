@@ -1,8 +1,9 @@
 L5.5 - Fairness test with names, regions and genders
-Executed evidence for Vehicle Service Booking
+LAB QUESTION: Test AI behaviour across names, regions and genders and mitigate unfair differences.
+Real PowerShell command/output evidence for Vehicle Service Booking
 Student: Suhas | Roll: 57 | USN: ENG24CS1021
 ====================================================================================================
-COMMAND: type "..\Case70_Lab_Outputs\L5.5_Fairness\L5.5_Fairness_Test.csv"
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> type "..\Case70_Lab_Outputs\L5.5_Fairness\L5.5_Fairness_Test.csv"
 EXIT CODE: 0
 Name
 Name,Region,Gender,Reminder status,Favourable difference

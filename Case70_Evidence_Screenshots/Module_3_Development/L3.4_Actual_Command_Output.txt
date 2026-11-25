@@ -1,8 +1,9 @@
 L3.4 - Jenkins trigger and build configuration
-Executed evidence for Vehicle Service Booking
+LAB QUESTION: Configure every push to trigger a reminder-scheduler build and show build results.
+Real PowerShell command/output evidence for Vehicle Service Booking
 Student: Suhas | Roll: 57 | USN: ENG24CS1021
 ====================================================================================================
-COMMAND: type Jenkinsfile
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> type Jenkinsfile
 EXIT CODE: 0
 pipeline {
   agent any
@@ -16,7 +17,7 @@ pipeline {
   }
 }
 ----------------------------------------------------------------------------------------------------
-COMMAND: where jenkins || echo Jenkins executable not installed
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> where jenkins || echo Jenkins executable not installed
 EXIT CODE: 0
 Jenkins executable not installed
 

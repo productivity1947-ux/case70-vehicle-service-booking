@@ -1,8 +1,9 @@
 L5.3 - Safe AI code-review checklist
-Executed evidence for Vehicle Service Booking
+LAB QUESTION: Create a safe AI-code-review checklist and apply it to a real suggestion.
+Real PowerShell command/output evidence for Vehicle Service Booking
 Student: Suhas | Roll: 57 | USN: ENG24CS1021
 ====================================================================================================
-COMMAND: type "..\Case70_Lab_Outputs\L5.3_AI_Code_Review\L5.3_Safe_Checklist.txt"
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> type "..\Case70_Lab_Outputs\L5.3_AI_Code_Review\L5.3_Safe_Checklist.txt"
 EXIT CODE: 0
 Input validation: reviewed
 SQL safety: parameterised ORM

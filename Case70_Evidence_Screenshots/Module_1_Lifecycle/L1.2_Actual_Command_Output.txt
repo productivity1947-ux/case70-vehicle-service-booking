@@ -1,8 +1,9 @@
 L1.2 - Weighted process-model matrix
-Executed evidence for Vehicle Service Booking
+LAB QUESTION: Build a weighted decision matrix of five process models and support the Incremental choice.
+Real PowerShell command/output evidence for Vehicle Service Booking
 Student: Suhas | Roll: 57 | USN: ENG24CS1021
 ====================================================================================================
-COMMAND: type "..\Case70_Lab_Outputs\L1.2_Process_Model\L1.2_Process_Model_Matrix.csv"
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> type "..\Case70_Lab_Outputs\L1.2_Process_Model\L1.2_Process_Model_Matrix.csv"
 EXIT CODE: 0
 Model,Feedback speed,Risk control,Change handling,Documentation,Prototype fit,Total
 Incremental,25.0,16.0,25.0,12.0,15.0,93.0

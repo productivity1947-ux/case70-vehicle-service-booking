@@ -1,15 +1,16 @@
 L1.1 - SDLC plan
-Executed evidence for Vehicle Service Booking
+LAB QUESTION: Make a one-page SDLC plan for Vehicle Service Booking listing phase, activity, output and owner.
+Real PowerShell command/output evidence for Vehicle Service Booking
 Student: Suhas | Roll: 57 | USN: ENG24CS1021
 ====================================================================================================
-COMMAND: python lab_programs.py
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> python lab_programs.py
 EXIT CODE: 0
 Generated 25 lab output folders
 SQA defect density: 0.0
 SQA reliability: 0.98
 Process model matrix generated
 ----------------------------------------------------------------------------------------------------
-COMMAND: type "..\Case70_Lab_Outputs\L1.1_SDLC\L1.1_SDLC_Plan.csv"
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> type "..\Case70_Lab_Outputs\L1.1_SDLC\L1.1_SDLC_Plan.csv"
 EXIT CODE: 0
 Phase,Activity,Output,Owner
 Planning,Confirm 40-workshop scope,Approved charter,Suhas

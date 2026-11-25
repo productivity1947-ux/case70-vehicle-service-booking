@@ -1,8 +1,9 @@
 L2.3 - Epic split into stories
-Executed evidence for Vehicle Service Booking
+LAB QUESTION: Split one large epic into five stories with acceptance criteria.
+Real PowerShell command/output evidence for Vehicle Service Booking
 Student: Suhas | Roll: 57 | USN: ENG24CS1021
 ====================================================================================================
-COMMAND: type "..\Case70_Lab_Outputs\L2.3_User_Stories\L2.3_Epic_Stories.csv"
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> type "..\Case70_Lab_Outputs\L2.3_User_Stories\L2.3_Epic_Stories.csv"
 EXIT CODE: 0
 Epic,US-01,US-02,US-03,US-04,US-05
 Complete vehicle booking and reminder flow,Search and view 40 workshops,Select vehicle and create booking,Validate future date,Schedule one reminder,Opt out of marketing

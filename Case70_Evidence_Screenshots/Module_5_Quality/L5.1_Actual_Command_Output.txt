@@ -1,8 +1,9 @@
 L5.1 - Defect density and reliability
-Executed evidence for Vehicle Service Booking
+LAB QUESTION: Measure reminder-scheduler defect density and reliability over 50 runs.
+Real PowerShell command/output evidence for Vehicle Service Booking
 Student: Suhas | Roll: 57 | USN: ENG24CS1021
 ====================================================================================================
-COMMAND: type "..\Case70_Lab_Outputs\L5.1_SQA\L5.1_SQA_Results.json"
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> type "..\Case70_Lab_Outputs\L5.1_SQA\L5.1_SQA_Results.json"
 EXIT CODE: 0
 {
   "defect_density": 0.0,

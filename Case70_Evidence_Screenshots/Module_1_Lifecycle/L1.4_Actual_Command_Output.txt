@@ -1,8 +1,9 @@
 L1.4 - Testable requirements
-Executed evidence for Vehicle Service Booking
+LAB QUESTION: Convert the scenario into 10 functional and 5 non-functional testable requirements.
+Real PowerShell command/output evidence for Vehicle Service Booking
 Student: Suhas | Roll: 57 | USN: ENG24CS1021
 ====================================================================================================
-COMMAND: type "..\Case70_Lab_Outputs\L1.4_Requirements\L1.4_Testable_Requirements.csv"
+PS C:\Users\guest pc\Desktop\suhas\Case70_Vehicle_Service_Booking> type "..\Case70_Lab_Outputs\L1.4_Requirements\L1.4_Testable_Requirements.csv"
 EXIT CODE: 0
 Requirement,Testable rewritten requirement
 FR-01,The system shall create one reminder for each new valid booking.
